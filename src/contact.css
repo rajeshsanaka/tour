@@ -1,0 +1,30 @@
+.map{
+   margin: 50px; 
+}
+.contacts
+{
+    background-image: url(./nature5.jpg);
+    background-size:cover ;
+}
+.head {
+    background-color: #2f2e2e;
+    height: 500px;
+    width: 1560px;
+}
+
+.cont {
+    float: left;
+    margin-top: 20px;
+    margin-right: 100px;
+    background-color: rgb(62, 61, 61);
+    width: 400px;
+    height: 320px;
+    color: white;
+    text-align: left;
+    border-radius: 16px;
+    border-left: 4px #f6f3f3 solid;
+}
+
+.cont ul {
+    float: left;
+}

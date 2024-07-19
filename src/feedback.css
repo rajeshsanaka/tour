@@ -1,0 +1,82 @@
+.feedback-all{
+  background-image: url('./places/feedback.jpg');
+  background-size: cover;
+}  
+  #feedback{
+    background-color: #e0ddddc9;
+    height: 800px;
+    border-radius: 50px;
+    margin-left: 1000px;
+    margin-top: 50px;
+    width: 400px;
+  text-align: center;
+    border: 1px solid rgb(18, 18, 18);
+  }
+   img{
+    text-align: center;
+   
+  }
+  h1{
+    color: red;
+    text-align: center;
+  }
+  .elements{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flexs;
+  
+  }
+  .lable{
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    margin-right: 100px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    font-weight: 300px;
+    float: left;
+    width: 10%;
+  
+  }
+  element{
+    transition:all 1s;
+    width: 90%;
+    float: left;
+    height: 20px;
+  }
+  .element:hover{
+    padding: 10px;
+    border:2px solid green;
+    box-shadow: 2px red;
+  }
+  .submit-btn button{
+    padding: 10px;
+    background-color: aqua  ;
+    border-radius: 20px;
+    margin-left: 220px;
+  }
+   .submit-btn #forget-password{
+    color: bl;
+  
+  } 
+  .box{
+    width: 330px;
+    height:40px ;
+  }
+  .box-1{
+  
+    width: 330px;
+    height: 150px;
+  }
+  .desi{
+    font-size: small;
+  }
+  button{
+    padding: 10px 40px;
+    background-color: rgb(32, 0, 128);
+    border-radius: 20px;
+    color: #fff;
+    font-size: larger;
+  }
+  section .box1{
+    margin-right: 9px;
+  }
