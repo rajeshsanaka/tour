@@ -1,0 +1,83 @@
+body{
+  background-color: rgb(235, 238, 237);
+}
+.total{
+  background-image: url('./places/login.jpg');
+  background-size: cover;
+}
+
+#login{
+  background-color: #ffffff81;
+  border-radius: 50px;
+  height: 600px;
+  margin-left: 1200px;
+  margin-top: 50px;
+  width: 400px;
+text-align: center;
+  border: 1px solid rgb(18, 18, 18);
+}
+ img{
+  text-align: center;
+ 
+}
+h2{
+  color: red;
+  text-align: center;
+}
+.elements{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flexs;
+
+}
+.lable{
+  color: rgb(172, 43, 43);
+  margin-right: 100px;
+  margin-bottom: 2px;
+  float: left;
+  width: 10%;
+
+}
+element{
+  transition:all 1s;
+  width: 90%;
+  float: left;
+  height: 20px;
+}
+.element:hover{
+  padding: 10px;
+  border:2px solid green;
+  box-shadow: 2px red;
+}
+.submit-btn button{
+  padding: 10px;
+  background-color: aqua  ;
+  border-radius: 20px;
+  margin-left: 220px;
+}
+ .submit-btn #forget-password{
+  color: bl;
+
+} 
+.box{
+  width: 330px;
+  height:40px ;
+  border-radius: 10px;
+}
+.box1{
+  border-radius: 10px;
+  height: 40px;
+}
+.desi{
+  font-size: small;
+}
+button{
+  padding: 10px 40px;
+  background-color: green;
+  border-radius: 20px;
+  color: #fff;
+  font-size: larger;
+}
+section .box1{
+  margin-right: 9px;
+}

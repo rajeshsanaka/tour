@@ -1,0 +1,90 @@
+.images {    
+    display: flex;
+    flex-direction: row; /* Default: Row for larger screens */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    gap: 20px; /* Space between images */
+}
+
+.caption {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: #fff;
+    font-size: 50px;
+}
+
+.booknow-all {
+    background-size: cover;
+    background-image: url('./nature2.jpg');
+}
+
+p {
+    color: #f8f2f2;
+}
+
+#pop-all {
+    background-color: black;
+}
+
+.hotel-pic {
+    margin-right: 20px;
+}
+
+.hotels-all {
+    background-color: black;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.hotel-pic figcaption {
+    text-align: center;
+}
+
+.hotel-pic .book-button {
+    text-align: center;
+    transition: all 2s;
+}
+
+.book-button:hover {
+    padding: 20px;
+}
+
+.image {
+    transition: all 2s;
+    border-radius: 40px;
+    width: 100%; /* Ensure the image fills the container width */
+}
+
+.image:hover {
+    transform: scale(0.9);
+}
+
+.pop-gallery2 {
+    margin-top: 80px;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .images {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center; /* Center the images horizontally */
+        gap: 0; /* Remove extra gaps between images */
+    }
+
+    .hotel-pic {
+        margin: 0; /* Remove margins for mobile */
+        width: 100%; /* Ensure the image container spans full width */
+    }
+
+    .image {
+        width: 100%; /* Ensure images take up full width */
+        max-width: 100%; /* Prevent overflow */
+    }
+
+    .caption {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+}

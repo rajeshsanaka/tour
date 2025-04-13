@@ -1,0 +1,19 @@
+#home-all{
+    background-image: url('./places/home.jpg');
+    background-size: cover;
+    text-align: right;
+}
+.start{
+    
+    width: 600px;
+    height: 900px;
+    margin-top: 150px;
+    margin-left: 1000px;
+    
+}
+.start h1{
+    text-align: right;
+    font-size: 50px;
+    font-family: cursive;
+    color: rgb(255, 0, 123);
+}
